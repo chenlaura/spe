@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ESP</title>
+	<title>SPE</title>
 
 	<!--<link href="{{ asset('/css/app.css') }}" rel="stylesheet">-->
 	{!!Html::style('css/bootstrap.css')!!}	
@@ -91,7 +91,8 @@
                 <!-- sidebar: style can be found in sidebar.less -->
                 <section class="sidebar">
 					 <div>
-                        <img src="img/avatar5.png" class="img-circle sidebar-logo" alt="User Image" />
+                        <!--<img src="img/logo.png" class="img-circle sidebar-logo" alt="User Image" />-->
+                        <img src="img/logo.png" class="sidebar-logo" alt="User Image" />
                     </div>
                     <!-- Sidebar user panel -->
                     <div class="user-panel">

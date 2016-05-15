@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontEnd/speIndex');
+});
+Route::get('/login', function () {
+    return view('admin/login');
+});
+Route::get('/index', function () {
+    return view('admin/index');
+});
+Route::get('/costumerData', function () {
+    return view('admin/costumerData');
 });
